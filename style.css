@@ -57,7 +57,6 @@ header .score h1 {
     font-size: 5.6rem;
     color: hsl(0, 0%, 100%);
     font-weight: bolder;
-
 }
 
 header .score p {
@@ -103,7 +102,7 @@ main h1 {
 
 .name-and-icon {
     display: flex;
-    gap: 1em;
+    gap: .5em;
     align-items: center;
 }
 
@@ -117,12 +116,12 @@ main ul li {
     justify-content: space-between;
     list-style-type: none;
     border-radius: 1.2em;
-    margin: 1em 0;
-    padding: 2em;
+    margin: .5em 0;
+    padding: 1.5em;
+    font-size: 1.6rem;
 }
 
 main ul li .name {
-    font-size: 1.6rem;
     font-style: italic;
     font-weight: lighter;
 }
@@ -160,7 +159,6 @@ li.visual .name {
 }
 
 li .score {
-    font-size: 1.6rem;
     font-weight: bold;
     color: hsla(223, 30%, 27%, 1);
 }
@@ -199,7 +197,33 @@ li .score .of {
     header {
         flex: 1;
     }
+    header .score {
+        width: 200px;
+        height: 200px;
+      }
+    header .score h1 {
+        font-size: 7.2rem;
+    }
+    header .score p {
+        font-size: 1.8rem;
+    }
+    header .title {
+        font-size: 2.4rem;
+    }
+    .text-wrapper .subtitle{
+        font-size: 3.2rem;
+    }
+    .text-wrapper .description {
+        font-size: 1.8rem;
+    }
     main {
         flex: 1.2;
+    }
+    main h1 {
+        font-size: 2.4rem;
+    }
+    main ul li {
+        font-size: 1.8rem;
+        padding: 1em;
     }
 }
