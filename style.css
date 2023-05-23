@@ -71,7 +71,7 @@ header .score p {
     justify-content: center;
     align-items: center;
     gap: 1em;
-    padding: 0 3em;
+    padding: 0 5em;
 }
 
 .text-wrapper .subtitle{
@@ -209,6 +209,9 @@ li .score .of {
     }
     header .title {
         font-size: 2.4rem;
+    }
+    .text-wrapper { 
+        padding: 3em;
     }
     .text-wrapper .subtitle{
         font-size: 3.2rem;
