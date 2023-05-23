@@ -194,6 +194,7 @@ li .score .of {
 @media only screen and (min-width: 700px) {
     .wrapper {
         display: flex;
+        gap: 1em;
     }
     header {
         flex: 1;
