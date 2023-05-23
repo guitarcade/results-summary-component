@@ -72,6 +72,7 @@ header .score p {
     justify-content: center;
     align-items: center;
     gap: 1em;
+    padding: 0 3em;
 }
 
 .text-wrapper .subtitle{
@@ -117,7 +118,7 @@ main ul li {
     list-style-type: none;
     border-radius: 1.2em;
     margin: 1em 0;
-    padding: 1em;
+    padding: 2em;
 }
 
 main ul li .name {
@@ -177,6 +178,11 @@ li .score .of {
     display: flex;
     justify-content: center;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
 }
 
 @media only screen and (max-width: 699px) {
